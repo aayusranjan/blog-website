@@ -1,0 +1,12 @@
+body {
+    background-color: #2c3639;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    grid-auto-rows: 350px;
+    cursor: pointer;
+}
